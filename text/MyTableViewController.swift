@@ -10,10 +10,14 @@ import UIKit
 
 class MyTableViewController: UITableViewController {
 
-    var foodStores:[Food] = [
-        Food(name: "늘해랑", address: "부산광역시 부산진구 양정1동 350-1"),
-        Food(name: "번개반점", address: "부산광역시 부산진구 양정동 418-282")
-    ]
+//    var foodStores:[Food] = [
+//        Food(name: "늘해랑", address: "부산광역시 부산진구 양정1동 350-1"),
+//        Food(name: "번개반점", address: "부산광역시 부산진구 양정동 418-282")
+//    ]
+//
+    
+    var foodStorenames = ["늘해랑", "번개반점"]
+    var foodStoreAddress = ["부산광역시 부산진구 양정1동 350-1", "부산광역신 부산진구 양정동 418-282"]
     
     
     override func viewDidLoad() {
@@ -42,16 +46,20 @@ class MyTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return foodStores.count
+//        return foodStores.count
+        return foodStorenames.count
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "RE", for: indexPath) as! MyTableViewCell
         
-        cell.title.text = foodStores[indexPath.row].name
-        cell.sub.text = foodStores[indexPath.row].address
+//        cell.title.text = foodStores[indexPath.row].name
+//        cell.sub.text = foodStores[indexPath.row].address
+//
         
+        cell.title.text = foodStorenames[indexPath.row]
+        cell.sub.text = foodStoreAddress[indexPath.row]
         // Configure the cell...
 
         return cell

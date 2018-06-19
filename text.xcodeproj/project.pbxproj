@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CD07AC9220D8CC61006FB8A0 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD07AC9220D8CC61006FB8A0 /* text.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = text.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD07AC9520D8CC61006FB8A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD07AC9A20D8CC61006FB8A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD07AC9C20D8CC61006FB8A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		CD07AC8920D8CC61006FB8A0 = {
 			isa = PBXGroup;
 			children = (
-				CD07AC9420D8CC61006FB8A0 /* test */,
+				CD07AC9420D8CC61006FB8A0 /* text */,
 				CD07AC9320D8CC61006FB8A0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		CD07AC9320D8CC61006FB8A0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CD07AC9220D8CC61006FB8A0 /* test.app */,
+				CD07AC9220D8CC61006FB8A0 /* text.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CD07AC9420D8CC61006FB8A0 /* test */ = {
+		CD07AC9420D8CC61006FB8A0 /* text */ = {
 			isa = PBXGroup;
 			children = (
 				CD07AC9520D8CC61006FB8A0 /* AppDelegate.swift */,
@@ -67,15 +67,15 @@
 				CD07ACA920D8CDD5006FB8A0 /* MyTableViewCell.swift */,
 				CD07ACAB20D8CDFA006FB8A0 /* Food.swift */,
 			);
-			path = test;
+			path = text;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CD07AC9120D8CC61006FB8A0 /* test */ = {
+		CD07AC9120D8CC61006FB8A0 /* text */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD07ACA420D8CC61006FB8A0 /* Build configuration list for PBXNativeTarget "test" */;
+			buildConfigurationList = CD07ACA420D8CC61006FB8A0 /* Build configuration list for PBXNativeTarget "text" */;
 			buildPhases = (
 				CD07AC8E20D8CC61006FB8A0 /* Sources */,
 				CD07AC8F20D8CC61006FB8A0 /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = test;
+			name = text;
 			productName = test;
-			productReference = CD07AC9220D8CC61006FB8A0 /* test.app */;
+			productReference = CD07AC9220D8CC61006FB8A0 /* text.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -106,7 +106,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CD07AC8D20D8CC61006FB8A0 /* Build configuration list for PBXProject "test" */;
+			buildConfigurationList = CD07AC8D20D8CC61006FB8A0 /* Build configuration list for PBXProject "text" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,7 +119,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CD07AC9120D8CC61006FB8A0 /* test */,
+				CD07AC9120D8CC61006FB8A0 /* text */,
 			);
 		};
 /* End PBXProject section */
@@ -309,7 +309,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CD07AC8D20D8CC61006FB8A0 /* Build configuration list for PBXProject "test" */ = {
+		CD07AC8D20D8CC61006FB8A0 /* Build configuration list for PBXProject "text" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD07ACA220D8CC61006FB8A0 /* Debug */,
@@ -318,7 +318,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD07ACA420D8CC61006FB8A0 /* Build configuration list for PBXNativeTarget "test" */ = {
+		CD07ACA420D8CC61006FB8A0 /* Build configuration list for PBXNativeTarget "text" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD07ACA520D8CC61006FB8A0 /* Debug */,
